@@ -1,6 +1,5 @@
--- Active: 1747462031077@@localhost@5100@wildlife
-CREATE DATABASE wildlife
-
+-- Active: 1747462031077@@localhost@5100@wildlifex
+CREATE DATABASE wildlifex
 -- create table
 -- 1.rangers 
 CREATE TABLE rangers (
@@ -8,8 +7,6 @@ CREATE TABLE rangers (
     name VARCHAR(100),
     region VARCHAR(100)
 )
-
-DROP TABLE rangers
 
 -- 2. species
 CREATE TABLE species (
